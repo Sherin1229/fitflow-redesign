@@ -117,3 +117,36 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# ==============================
+# FitFlow Additional Ignores
+# ==============================
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Node.js / NestJS
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / FastAPI
+__pycache__/
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
